@@ -7,9 +7,10 @@ class Exercice4 {
         System.out.println("Veuillez saisir un nombre entier positif:");
             int n = sc.nextInt();
         
-        System.out.println("Le pas croissant jusqu'a " + n + ":");
+        System.out.println("Les " + n + " premiers termes du pas croissant:");
         for (int i=1; i<=n; i++) {
-            System.out.println(i+(i-1));
+            num = (i + (i-1));
+            System.out.println(num);
         };             
     }
 }
