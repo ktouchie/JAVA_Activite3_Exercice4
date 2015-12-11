@@ -8,8 +8,8 @@ class Exercice4 {
             int n = sc.nextInt();
         
         System.out.println("Le pas croissant jusqu'a " + n + ":");
-        for (int i=1; i<=n; i+(i-1)) {
-            System.out.println(i);
+        for (int i=1; i<=n; i++) {
+            System.out.println(i+(i-1));
         };             
     }
 }
